@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProcess", "MyProcess\MyProcess.csproj", "{3A3EBEB4-14E0-4889-A21E-85FA98EC2AB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyProcess", "MyProcess\MyProcess.csproj", "{3A3EBEB4-14E0-4889-A21E-85FA98EC2AB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Call", "Call\Call.csproj", "{D08B0135-B822-4D4F-A443-6AD1101BA7EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Call", "Call\Call.csproj", "{D08B0135-B822-4D4F-A443-6AD1101BA7EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDLL", "MyDLL\MyDLL.csproj", "{5AFDADE4-DA2E-45C0-AADA-9BC7CE1ADA07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D08B0135-B822-4D4F-A443-6AD1101BA7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D08B0135-B822-4D4F-A443-6AD1101BA7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D08B0135-B822-4D4F-A443-6AD1101BA7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AFDADE4-DA2E-45C0-AADA-9BC7CE1ADA07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFDADE4-DA2E-45C0-AADA-9BC7CE1ADA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFDADE4-DA2E-45C0-AADA-9BC7CE1ADA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFDADE4-DA2E-45C0-AADA-9BC7CE1ADA07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
