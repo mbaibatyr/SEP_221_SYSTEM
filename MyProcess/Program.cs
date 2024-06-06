@@ -7,7 +7,12 @@ namespace MyProcess
     {
         static void Main(string[] args)
         {
-            StartProcess(@"C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE");
+            int a = int.Parse(args[0]);
+            int b = Convert.ToInt32(args[1]);
+            Thread.Sleep(5 * 1000);
+            Console.WriteLine(a + b);
+
+            //StartProcess(@"C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE");
             //List<Process> lst = new List<Process>();
             //lst.Add(StartProcess("calc"));
             //lst.Add(StartProcess("calc"));
