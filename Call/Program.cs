@@ -7,10 +7,14 @@ namespace Call
     {
         static void Main(string[] args)
         {
-            MyClass myClass = new MyClass();
-            var result = myClass.Sum(50, 20);
-            Console.WriteLine(result);
-            Console.WriteLine(myClass.Hello("STEP"));
+            MyDLL3.MyClass3 class3 = new MyDLL3.MyClass3();
+            Console.WriteLine(class3.SayHello("STEPPPP"));
+            Console.WriteLine(class3.Sum(12,13));
+
+            //MyClass myClass = new MyClass();
+            //var result = myClass.Sum(50, 20);
+            //Console.WriteLine(result);
+            //Console.WriteLine(myClass.Hello("STEP"));
 
             //Process.Start("C:\\Users\\байбатыровм\\source\\repos\\SEP_221_SYSTEM\\MyProcess\\bin\\Debug\\net6.0\\MyProcess.exe");
 

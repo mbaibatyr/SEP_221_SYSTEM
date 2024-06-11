@@ -7,14 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MyDLL\MyDLL.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="MyDLL3">
-      <HintPath>..\..\..\..\..\..\Temp\MyDLL3.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
