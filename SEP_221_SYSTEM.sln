@@ -9,13 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Call", "Call\Call.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDLL", "MyDLL\MyDLL.csproj", "{5AFDADE4-DA2E-45C0-AADA-9BC7CE1ADA07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDLL3", "MyDLL3\MyDLL3.csproj", "{F81D9E38-B7FA-4548-988A-7CA15DE1FFC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDLL3", "MyDLL3\MyDLL3.csproj", "{F81D9E38-B7FA-4548-988A-7CA15DE1FFC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyReflexia", "MyReflexia\MyReflexia.csproj", "{A6079072-5D57-4E6A-8B86-5FAC4A86794C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyReflexia", "MyReflexia\MyReflexia.csproj", "{A6079072-5D57-4E6A-8B86-5FAC4A86794C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDLL4", "MyDLL4\MyDLL4.csproj", "{2921538C-EAE0-489F-B898-58C94DC272E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyReflexia2", "MyReflexia2\MyReflexia2.csproj", "{EEB323B5-A01C-41DE-AAD0-23E0BFABD8DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyThread", "MyThread\MyThread.csproj", "{102373D2-6B17-47E2-977F-4FA06773BFA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyForm", "MyForm\MyForm.csproj", "{48393FC2-D39E-49E0-8924-30BB1023B6BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{EEB323B5-A01C-41DE-AAD0-23E0BFABD8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEB323B5-A01C-41DE-AAD0-23E0BFABD8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEB323B5-A01C-41DE-AAD0-23E0BFABD8DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102373D2-6B17-47E2-977F-4FA06773BFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102373D2-6B17-47E2-977F-4FA06773BFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102373D2-6B17-47E2-977F-4FA06773BFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102373D2-6B17-47E2-977F-4FA06773BFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48393FC2-D39E-49E0-8924-30BB1023B6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48393FC2-D39E-49E0-8924-30BB1023B6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48393FC2-D39E-49E0-8924-30BB1023B6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48393FC2-D39E-49E0-8924-30BB1023B6BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
