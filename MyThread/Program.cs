@@ -6,19 +6,23 @@ namespace MyThread
     {
         static void Main(string[] args)
         {
+            DateTime dt1 = DateTime.Now;
+            DateTime dt2 = DateTime.Now.AddMinutes(2);
+            Console.WriteLine((dt2 - dt1).TotalSeconds);
+
             //Thread thread = Thread.CurrentThread;
             //thread.Priority = ThreadPriority.Highest;
             //Console.WriteLine($"{thread.Priority}");
-            
-            for (int i = 1; i <= 5; i++)
-            {
-                //Thread MyThread = new Thread(Test);
-                Thread MyThread = new Thread (new ParameterizedThreadStart(Test2));
-                MyThread.Name = "Поток " + i.ToString();
-                MyThread.Start(i);
-            }
 
-            Console.ReadLine();
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    //Thread MyThread = new Thread(Test);
+            //    Thread MyThread = new Thread (new ParameterizedThreadStart(Test2));
+            //    MyThread.Name = "Поток " + i.ToString();
+            //    MyThread.Start(i);
+            //}
+
+            //Console.ReadLine();
         }
 
         static void Test()
