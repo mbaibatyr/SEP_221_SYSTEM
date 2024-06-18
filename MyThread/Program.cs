@@ -4,6 +4,7 @@ namespace MyThread
 {
     internal class Program
     {
+        static object MyLock = new();
         static void Main(string[] args)
         {
             //DateTime dt1 = DateTime.Now;
@@ -28,11 +29,14 @@ namespace MyThread
 
         static void Test()
         {
-            for (int i = 0; i < 10; i++)
+            lock (MyLock)
             {
-                Thread thread = Thread.CurrentThread;
-                Console.WriteLine($"{thread.Name} - {i}");
-                Thread.Sleep(200);
+                for (int i = 0; i < 10; i++)
+                {
+                    Thread thread = Thread.CurrentThread;
+                    Console.WriteLine($"{thread.Name} - {i}");
+                    Thread.Sleep(200);
+                }
             }
         }
 
