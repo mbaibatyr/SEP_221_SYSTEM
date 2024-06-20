@@ -14,6 +14,7 @@
 
             string[] list = new string[] { "1", "2", "3", "3" };
             list = list.Distinct().ToArray();
+            
 
             //using (Sqlconnection db = new Sqlconnection(""))
             //{
