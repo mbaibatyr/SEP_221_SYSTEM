@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyForm", "MyForm\MyForm.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTask", "MyTask\MyTask.csproj", "{D1E6AB59-7492-42D4-968F-C96C4E5D7069}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTask2", "MyTask2\MyTask2.csproj", "{E678AE7F-ED58-4264-945C-4D903B3D3C67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTask2", "MyTask2\MyTask2.csproj", "{E678AE7F-ED58-4264-945C-4D903B3D3C67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyParallel", "MyParallel\MyParallel.csproj", "{30607927-E6F3-4FC8-9A9C-AE5F8F79AAAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{E678AE7F-ED58-4264-945C-4D903B3D3C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E678AE7F-ED58-4264-945C-4D903B3D3C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E678AE7F-ED58-4264-945C-4D903B3D3C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30607927-E6F3-4FC8-9A9C-AE5F8F79AAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30607927-E6F3-4FC8-9A9C-AE5F8F79AAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30607927-E6F3-4FC8-9A9C-AE5F8F79AAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30607927-E6F3-4FC8-9A9C-AE5F8F79AAAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
